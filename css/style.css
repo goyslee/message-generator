@@ -61,16 +61,50 @@
         }
 
         button {
-            font-size: 18px;
-            padding: 10px 20px;
-            cursor: pointer;
-            background-color: #8ed5b8; /* Lighter green for the button */
-            border: none;
-            border-radius: 5px;
-            color: #ffffff; /* White text */
-            transition: background-color 0.3s;
+        font-size: 27px; /* Half of 54px */
+        padding: 15px 30px; /* Half of 30px 60px */
+        cursor: pointer;
+        background-color: #8ed5b8;
+        border: none;
+        border-radius: 7.5px; /* Half of 15px */
+        color: #ffffff; 
+        transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #76c4a8; /* Slightly darker shade on hover */
+}
+
+
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #8ed5b8; /* Lighter green for contrast */
+            padding-bottom: 10px;
+            text-align: center;
+            margin-bottom: 20px;
         }
 
-        button:hover {
-            background-color: #76c4a8; /* Slightly darker shade on hover */
-        }
+        footer {
+    background-color: #8ed5b8; /* Light green for a cohesive look */
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-info p {
+    margin: 0; 
+    font-size: 16px;
+    color: #ffffff; /* White text for contrast against the green background */
+}
+
+.footer-info a {
+    color: #ffffff; /* White text for the email link */
+    text-decoration: none;
+    transition: opacity 0.3s; /* Smooth transition for hover effect */
+}
+
+.footer-info a:hover {
+    opacity: 0.8; /* Slightly faded look on hover for the email link */
+}
