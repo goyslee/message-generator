@@ -1,7 +1,10 @@
-body {
+     body {
             font-family: 'Arial', sans-serif;
+            height: 100vh;
             margin: 0;
-            padding: 0;
+            display: flex;
+            flex-direction: column;
+            background-color: #a8e6cf; /* Light green background */
         }
 
         .navbar {
@@ -38,4 +41,36 @@ body {
 
         .navbar-links a:hover {
             background-color: #8ed5b8; /* A bit darker green */
+        }
+
+        .container {
+            flex: 1;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #motivational-message {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        button {
+            font-size: 18px;
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #8ed5b8; /* Lighter green for the button */
+            border: none;
+            border-radius: 5px;
+            color: #ffffff; /* White text */
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #76c4a8; /* Slightly darker shade on hover */
         }
